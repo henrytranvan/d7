@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Tobyj panel layout
+**/
+
+.panels-dnd .tobyj .col {
+  min-height: 1px;
+  width: 25%;
+  float: left;
+}
+
+.panels-dnd .tobyj .col .inner {
+  padding: 5px 1%;
+}
+
+.panels-dnd .tobyj .c1 .closer {display: none;}

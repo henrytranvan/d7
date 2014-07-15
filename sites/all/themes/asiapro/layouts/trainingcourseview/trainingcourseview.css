@@ -1,0 +1,39 @@
+/**
+ * @file
+ * trainingcourse panel layout
+**/
+
+.trainingcourse-container {
+  margin-bottom: 1em;
+}
+
+.trainingcourse-column-content-region {
+  min-height: 1px;
+  width: 34.043%;
+  float: left;
+}
+
+.trainingcourse-column-content-region-inner {
+  margin-right: 20px;
+}
+
+  .trainingcourse-column3 {
+    width: 31.915%;
+  }
+
+    .trainingcourse-column3-inner {
+      margin-right: 0;
+    }
+    
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .trainingcourse-column-content-region,
+  .trainingcourse-column3 {
+    width: 100%;
+    float: none;
+  }
+  
+  .trainingcourse-column-content-region-inner {
+    margin-right: 0;
+  }
+}
