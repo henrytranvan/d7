@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "mhfa"]
+	url = https://github.com/henrytranvan/mhfa.git
+	fetch = +refs/heads/*:refs/remotes/mhfa/*
